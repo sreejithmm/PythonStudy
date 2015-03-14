@@ -1,0 +1,10 @@
+def censor(text,word):
+        new=""
+            for item in text:
+                        print item
+                                if item == word:
+                                                new += "****"
+                                                        else:
+                                                                        new += item
+                                                                            return new
+                                                                        
